@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Stone Paper Scissor</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<section class="startscreen">
+		<button class="start_button">Start Game</button>
+	</section>
+	<h1 class="gameh1 hidden">Stone Paper Scissor</h1>
+	<section class="gamebody hidden">
+		<div class="headings ">
+			<h1 class="info m1">Choose your weapon</h1>
+			<h2 class="info m2">First to score 5 wins the game</h2>
+		</div>
+		<div class="score">
+			<div class="user">
+				<h1 class="user_score">0</h1>
+				<h2>Player</h2>
+			</div>
+			<div class="comp">
+				<h1 class="comp_score">0</h1>
+				<h2>Computer</h2>
+			</div>
+		</div>
+		<div class="weapons">
+			<img src="./rock.png" alt="rock" class="rock">
+			<img src="./paper.png" alt="paper" class="paper">
+			<img src="./scissors.png" alt="scissor" class="scissor">
+		</div>
+	</section>
+	<h1 class="footer hidden">
+		<p>Copyright © 2022 anugcodes</p> <img class="rotate-center" src="https://img.icons8.com/ios-glyphs/40/000000/github.png"/>
+	</h1>
+	<div class="results hidden">
+		<h1 class="result_text">You Lost</h1>
+		<button class="again">Play Again</button>
+	</div>
+	<script src="./main.js"></script>
+</body>
+</html>
